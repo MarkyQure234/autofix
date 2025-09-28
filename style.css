@@ -23,7 +23,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 nav a {
@@ -40,7 +40,7 @@ nav a:hover {
 /* Заголовки */
 header {
     text-align: center;
-    padding: 30px 15px;
+    padding: 30px 25px;
     background-color: #ff9800;
     color: white;
 }
