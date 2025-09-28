@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | AutoFix</title>
+    <meta name="author" content="AutoFix">
+    <meta name="description" content="Как связаться с сервисом AutoFix, телефон, электронная почта, адрес.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon.jpg">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Свяжитесь с нами!</h1>
+        <p>Вы всегда можете обратиться к нам для консультации или записи на обслуживание</p>
+    </header>
+
+    <main>
+        <h2>График работы:</h2>
+
+        <div>
+            <ul>
+                <li>
+                    Понедельник – Пятница: 09:00 – 20:00
+                </li>
+                <li>
+                    Суббота: 10:00 – 18:00
+                </li>
+                <li>
+                    Воскресенье: выходной
+                </li>
+            </ul>
+        </div>
+
+
+        <div>
+            <h3>Адрес:</h3>
+            <p>г. Алматы, ул. Абая, 15</p>
+        </div>
+
+        <div>
+            <h3>Телефон:</h3>
+            <p>+7(777) 111-11-11</p>
+        </div>
+
+        <div>
+            <h3>Email:</h3>
+            <p>info@autofix.kz</p>
+        </div>
+
+        <section>
+            <h2>Заполните форму обратной связи</h2>
+
+            <form action="server.php" method="post">
+                <p>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Номер:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+
+                <button type="submit">Оставить заявку</button>
+                
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 AutoFix</p>
+        <p>г. Алматы, ул. Абая 15 | +7 (777) 111-11-11</p>
+    </footer>
+
+</body>
+</html>
